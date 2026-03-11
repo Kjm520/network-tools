@@ -1,0 +1,1 @@
+tshark -i 8 -Y dns -T fields -e dns.qry.name
